@@ -3,68 +3,146 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BlackDoge — The Meme Icon</title>
+  <title>BlackDoge</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      animation: fadeIn 1s ease-out;
+    }
+
+    .banner-link {
+      display: inline-block;
+      transition: transform 0.3s ease;
+    }
+
+    .banner-link:hover {
+      transform: scale(1.03);
+    }
+
+    .banner {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #aaa;
+      margin-bottom: 1.5rem;
+    }
+
+    .buy-button {
+      display: inline-block;
+      background: #f5f5f5;
+      color: #0e0e0e;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .buy-button:hover {
+      background: #ddd;
+    }
+
+    section {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    a {
+      color: #f5f5f5;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 2rem 1rem;
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <img src="assets/banner.png" alt="BlackDoge Banner" class="banner" />
+    <a href="https://pump.fun/your-token-link" target="_blank" class="banner-link">
+      <img src="assets/banner.png" alt="BlackDoge Banner" class="banner" />
+    </a>
     <h1>BlackDoge</h1>
     <p class="tagline">The legendary Shiba Inu reborn in shadow. No roadmap. No promises. Just presence.</p>
-    <a href="your link here" class="buy-button">Buy on Pump.fun</a>
+    <a href="https://pump.fun/your-token-link" class="buy-button" target="_blank">Buy on Pump.fun</a>
   </header>
 
-  <section class="intro">
-    <h2>🐕 What Is BlackDoge?</h2>
+  <section>
+    <h2>What Is BlackDoge?</h2>
     <p>BlackDoge is a Solana-based memecoin centered around the iconic Shiba Inu — reimagined in sleek black. It’s a symbol of mystery, meme culture, and decentralized energy. No utility. No team. Just a dog and a dream.</p>
   </section>
 
-  <section class="curve">
-    <h2>📈 Bonding Curve Explained</h2>
-    <p>As more people buy, the price increases. Early buyers get in cheap, late buyers pay premium. It’s a self-fueling engine of hype and scarcity.</p>
-    <img src="assets/bonding-curve.png" alt="Bonding Curve Diagram" class="curve-img" />
-  </section>
-
-  <section class="lore">
-    <h2>🧠 Origin Story</h2>
-    <p>In the depths of the blockchain, a shadowy Shiba Inu emerged. BlackDoge isn’t just a meme — it’s a digital spirit animal for those who thrive in the unknown. No roadmap. No promises. Just vibes.</p>
-  </section>
-
-  <section class="features">
-    <h2>⚙️ Key Features</h2>
+  <section>
+    <h2>Key Features</h2>
     <ul>
-      <li>🐾 Meme-first branding with sleek visuals</li>
-      <li>🌀 Pump.fun launch — no presale, no team tokens</li>
-      <li>🔒 Transparent creator wallet (your link here)</li>
-      <li>📡 Active Twitter and Telegram community (your link here)</li>
-      <li>🧺 NOT part of any bundler — solo launch verified</li>
+      <li>Meme-first branding with sleek visuals</li>
+      <li>Pump.fun launch — no presale, no team tokens</li>
+      <li>Transparent creator wallet (<a href="your link here">view</a>)</li>
+      <li>Active Twitter and Telegram community</li>
+      <li>NOT part of any bundler — solo launch verified</li>
     </ul>
   </section>
 
-  <section class="social">
-    <h2>📡 Connect With Us</h2>
+  <section>
+    <h2>Connect</h2>
     <ul>
       <li><a href="https://x.com/nacho_void19007" target="_blank">Twitter</a></li>
       <li><a href="https://t.me/void_nacho" target="_blank">Telegram</a></li>
-      <li><a href="your link here" target="_blank">Pump.fun Token Page</a></li>
+      <li><a href="https://pump.fun/" target="_blank">Pump.fun Token Page</a></li>
     </ul>
   </section>
 
-  <section class="faq">
-    <h2>❓ FAQ</h2>
-    <h3>Is this financial advice?</h3>
-    <p>No. BlackDoge is a meme coin. It has no intrinsic value, no roadmap, and no promises. DYOR.</p>
-
-    <h3>Is this a rug?</h3>
-    <p>No. The creator wallet is public, and there are no hidden mechanics. This coin is as transparent as a freshly groomed Shiba.</p>
-
-    <h3>How do I buy?</h3>
-    <p>Click the “Buy on Pump.fun” button above and connect your Solana wallet. Then hold on tight.</p>
-  </section>
-
   <footer>
-    <p>⚠️ BlackDoge is for entertainment and meme purposes only. Not financial advice. Always do your own research.</p>
-    <p>© 2025 BlackDoge. All memes reserved.</p>
+    <p>BlackDoge is for entertainment and meme purposes only. Not financial advice. Always do your own research.</p>
+    <p>© 2025 BlackDoge</p>
   </footer>
 </body>
 </html>
