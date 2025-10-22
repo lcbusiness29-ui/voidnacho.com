@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BlackDoge</title>
-  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       margin: 0;
@@ -86,12 +85,24 @@
       text-decoration: underline;
     }
 
+    img.coin {
+      max-width: 100%;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+
     footer {
       text-align: center;
       font-size: 0.9rem;
       color: #666;
       padding: 2rem 1rem;
       animation: fadeIn 1s ease-out;
+    }
+
+    .profile-pic {
+      width: 80px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
     }
 
     @keyframes fadeIn {
@@ -107,17 +118,18 @@
 </head>
 <body>
   <header>
-    <a href="https://pump.fun/your-token-link" target="_blank" class="banner-link">
-      <img src="assets/banner.png" alt="BlackDoge Banner" class="banner" />
+    <a href="https://pump.fun/" target="_blank" class="banner-link">
+      <img src="banner.png" alt="BlackDoge Banner" class="banner" />
     </a>
     <h1>BlackDoge</h1>
     <p class="tagline">The legendary Shiba Inu reborn in shadow. No roadmap. No promises. Just presence.</p>
-    <a href="https://pump.fun/your-token-link" class="buy-button" target="_blank">Buy on Pump.fun</a>
+    <a href="https://pump.fun/" class="buy-button" target="_blank">Buy on Pump.fun</a>
   </header>
 
   <section>
     <h2>What Is BlackDoge?</h2>
     <p>BlackDoge is a Solana-based memecoin centered around the iconic Shiba Inu — reimagined in sleek black. It’s a symbol of mystery, meme culture, and decentralized energy. No utility. No team. Just a dog and a dream.</p>
+    <img src="blackdoge.png" alt="BlackDoge Coin" class="coin" />
   </section>
 
   <section>
@@ -125,7 +137,7 @@
     <ul>
       <li>Meme-first branding with sleek visuals</li>
       <li>Pump.fun launch — no presale, no team tokens</li>
-      <li>Transparent creator wallet (<a href="your link here">view</a>)</li>
+      <li>Transparent creator wallet (<a href="https://pump.fun/">view</a>)</li>
       <li>Active Twitter and Telegram community</li>
       <li>NOT part of any bundler — solo launch verified</li>
     </ul>
@@ -141,9 +153,9 @@
   </section>
 
   <footer>
+    <img src="voidnacho.png" alt="VoidNacho Profile" class="profile-pic" />
     <p>BlackDoge is for entertainment and meme purposes only. Not financial advice. Always do your own research.</p>
     <p>© 2025 BlackDoge</p>
   </footer>
 </body>
 </html>
-
