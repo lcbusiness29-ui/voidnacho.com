@@ -16,51 +16,47 @@
 
     header {
       text-align: center;
-      padding: 3rem 1rem 2rem;
+      padding: 2rem 1rem 1rem;
       animation: fadeIn 1s ease-out;
-    }
-
-    .banner-link {
-      display: inline-block;
-      transition: transform 0.3s ease;
-    }
-
-    .banner-link:hover {
-      transform: scale(1.03);
     }
 
     .banner {
       width: 100%;
-      max-width: 800px;
+      max-width: 700px;
       height: auto;
       border-radius: 8px;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
       margin: 0.5rem 0;
     }
 
     .tagline {
-      font-size: 1.2rem;
-      color: #aaa;
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #ccc;
       margin-bottom: 1.5rem;
     }
 
-    .buy-button {
+    .coin-button {
       display: inline-block;
-      background: #f5f5f5;
-      color: #0e0e0e;
-      padding: 0.75rem 1.5rem;
-      border-radius: 4px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s ease;
+      margin-top: 1rem;
+      transition: transform 0.3s ease;
     }
 
-    .buy-button:hover {
-      background: #ddd;
+    .coin-button:hover {
+      transform: scale(1.1);
+    }
+
+    .coin {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
     }
 
     section {
@@ -84,14 +80,6 @@
     a {
       color: #f5f5f5;
       text-decoration: underline;
-    }
-
-    img.coin {
-      width: 300px;
-      max-width: 90%;
-      display: block;
-      margin: 1rem auto;
-      border-radius: 8px;
     }
 
     footer {
@@ -123,18 +111,17 @@
 </head>
 <body>
   <header>
-    <a href="https://pump.fun/" target="_blank" class="banner-link">
-      <img src="banner.png" alt="BlackDoge Banner" class="banner" />
-    </a>
+    <img src="banner.png" alt="BlackDoge Banner" class="banner" />
     <h1>BlackDoge</h1>
-    <p class="tagline">The legendary Shiba Inu reborn in shadow. No roadmap. No promises. Just presence.</p>
-    <a href="https://pump.fun/" class="buy-button" target="_blank">Buy on Pump.fun</a>
+    <p class="tagline">The legendary Shiba Inu reborn in shadow. No roadmap. No fluff. Just presence.</p>
+    <a href="https://pump.fun/" target="_blank" class="coin-button">
+      <img src="blackdoge.png" alt="Buy BlackDoge" class="coin" />
+    </a>
   </header>
 
   <section>
     <h2>What Is BlackDoge?</h2>
-    <p>BlackDoge is a Solana-based memecoin centered around the iconic Shiba Inu — reimagined in sleek black. It’s a symbol of mystery, meme culture, and decentralized energy. No utility. No team. Just a dog and a dream.</p>
-    <img src="blackdoge.png" alt="BlackDoge Coin" class="coin" />
+    <p>BlackDoge is a Solana-based memecoin built on mystery, minimalism, and meme power. No roadmap, no fluff—just a dark aesthetic and a loyal community.</p>
   </section>
 
   <section>
