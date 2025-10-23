@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('Background.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color: #000;
   font-family: 'Courier New', monospace;
   color: #fff;
 }
@@ -10,7 +9,13 @@ body {
 .container {
   text-align: center;
   padding: 60px 20px;
-  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -30,26 +35,14 @@ p {
   margin-top: 40px;
 }
 
-.monster-button img {
-  width: 300px;
-  height: auto;
-  transition: transform 0.3s ease;
-  margin-top: 30px;
-}
-
-.monster-button img:hover {
-  transform: scale(1.05);
-}
-
 .cta {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 15px 30px;
-  background-color: #fff;
+  background-color: gold;
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
-  border: none;
   font-size: 1em;
   border-radius: 5px;
   text-decoration: none;
@@ -59,7 +52,7 @@ footer {
   text-align: center;
   font-size: 0.9em;
   margin-top: 60px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 footer a {
@@ -68,3 +61,10 @@ footer a {
   margin: 0 10px;
 }
 
+.pfp {
+  width: 80px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 50%;
+  opacity: 0.9;
+}
