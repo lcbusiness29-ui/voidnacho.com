@@ -12,8 +12,7 @@ body {
 }
 
 .banner {
-  width: 100%;
-  max-width: 900px;
+  width: 20%;
   height: auto;
   margin-bottom: 40px;
 }
